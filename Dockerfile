@@ -1,4 +1,4 @@
-FROM multiarch/crossbuild:latest
+FROM broderickhyman/crossbuild:latest
 
 # gcc for cgo
 RUN apt-get update && apt-get install -y --no-install-recommends \
